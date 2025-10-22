@@ -10,7 +10,6 @@ int main(){
     char cidade1 [50];
     int populaçao1, pontoturistico1;
     float area1, pib1;
-    float densidadepopulacional1, pibpercapita;
     
 // Aqui será onde o usuário irá inserir os dados da primeira carta.
 
