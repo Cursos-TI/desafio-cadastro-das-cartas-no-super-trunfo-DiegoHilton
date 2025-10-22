@@ -10,6 +10,7 @@ int main(){
     char cidade1 [50];
     int populaçao1, pontoturistico1;
     float area1, pib1;
+    float densidadepopulacional1;
     
 // Aqui será onde o usuário irá inserir os dados da primeira carta.
 
@@ -90,7 +91,8 @@ int main(){
     printf("Área: %.2f km²\n", area1);
     printf("PIB: %.2f bilhões de reais\n", pib1);
     printf("Número de Pontos Turísticos: %d\n", pontoturistico1);
-
+    float divisaodensidade = populaçao1 / area1;
+    printf("Densidade Populacional: %.2f hab/km2\n", divisaodensidade;
 // Quebra de linha que faz ficar com visualização mais clara.
 
     printf("\n");
