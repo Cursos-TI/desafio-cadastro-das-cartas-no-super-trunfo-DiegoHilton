@@ -1,5 +1,3 @@
-#include <stdio.h>
-
 int main(){
 
 // Informações da primeira carta onde serão armazenadas.
@@ -90,16 +88,39 @@ int main(){
     printf("Área: %.2f km²\n", area1);
     printf("PIB: %.2f bilhões de reais\n", pib1);
     printf("Número de Pontos Turísticos: %d\n", pontoturistico1);
-    float divisaodensidade = populaçao1 / area1;
-    printf("Densidade Populacional: %.2f hab/km2\n", divisaodensidade;
-    float divisaopib = pib1 / populaçao1;
-    printf("PIB Per Capita: %.2f reais\n", divisaopib;
+    float divisaodensidade1 = populaçao1 / area1;
+    printf("Densidade Populacional: %.2f hab/km2\n", divisaodensidade1);
+    float divisaopib1 = pib1 * populaçao1;
+    printf("PIB Per Capita: %.2f reais\n", divisaopib1);
     
 // Quebra de linha que faz ficar com visualização mais clara.
 
     printf("\n");
 
 // Esses comandos que irão executar as informações da segunda carta ao usuário.
+
+    printf("Carta2: %s\n", carta2);
+    printf("Estado: %s\n", estado2);
+    printf("Código: %s\n", codigo2);
+    printf("Nome da Cidade: %s\n", cidade2);
+    printf("População: %d\n", populaçao2);
+    printf("Área: %.2f km²\n", area2);
+    printf("PIB: %.2f bilhões de reais\n", pib2);
+    printf("Número de Pontos Turísticos: %d\n", pontoturistico2);
+    float divisaodensidade2 = populaçao2 / area2;
+    printf("Densidade Populacional: %.2f hab/km2\n", divisaodensidade2);
+    float divisaopib2 = pib2 * populaçao2;
+    printf("PIB Per Capita: %.2f reais\n", divisaopib2);
+
+// Quebra de linha que faz ficar com visualização mais clara.
+
+    printf("\n");
+
+// Aqui é onde se finaliza o código.
+    return 0;
+}
+
+// Código feito por: Diego Hilton,// Esses comandos que irão executar as informações da segunda carta ao usuário.
 
     printf("Carta2: %s\n", carta2);
     printf("Estado: %s\n", estado2);
